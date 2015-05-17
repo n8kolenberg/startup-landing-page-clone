@@ -425,3 +425,100 @@ td,
 th {
   padding: 0;
 }
+
+/* Custom CSS =============================================*/
+/** {
+  border: 1px solid firebrick;
+  box-sizing: border-box;
+}*/
+
+
+/*Type Selectors*/
+
+
+
+
+
+/* Class Selectors */
+.logo {
+  height: 39px;
+  width: 39px;
+  display: inline;
+  margin-left: 40px;
+  margin-top: 15px;
+ 
+}
+
+
+.navigation {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+
+}
+
+
+.navigation-menu {
+  display: block;
+  text-align: right;
+  margin: -30px 100px 10px 200px;
+  white-space: nowrap;
+  
+}
+
+
+.navigation-menu > li {
+  display: inline-block;
+  margin: 5px 10px;
+  list-style: none;
+  color: slategrey;
+  margin: 0 15px;
+} 
+
+
+.filler > img{
+  height: 1000px;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
