@@ -444,9 +444,16 @@ th {
   border: 1px solid red;
 }
 
+
+body {
+  box-sizing: border-box;
+}
+
+
 .top-navigation {
   background-color: #fff;
 }
+
 
 .top-navigation > .content {
   width: 970px;
@@ -455,18 +462,40 @@ th {
 }
 
 
+.content {
+  padding: 0px 15px;
+}
 
-/*.logo {
-  height: 39px;
-  width: 39px;
-  display: inline;
-  margin-left: 40px;
-  margin-top: 15px;
+
+.links > li {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+
+}
+
+
+.links {
+  float: right;
+}
+
+
+.top-navigation > .links > .active {
+  color: #4c5058;
+  font-weight: 600;
+}
+
+
+.logo {
+  height: 70px;
  
 }
 
 
-.navigation {
+/*.navigation {
   position: fixed;
   height: 4.375rem;
   width: 60rem;
@@ -497,10 +526,10 @@ th {
   height: 1000px;
   width: 100%;
   margin: auto;
-}*/
+}
 
 
-
+*/
 
 
 
