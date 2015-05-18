@@ -440,7 +440,23 @@ th {
 
 
 /* Class Selectors */
-.logo {
+* {
+  border: 1px solid red;
+}
+
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+
+
+/*.logo {
   height: 39px;
   width: 39px;
   display: inline;
@@ -452,8 +468,8 @@ th {
 
 .navigation {
   position: fixed;
-  height: 70px;
-  width: 100%;
+  height: 4.375rem;
+  width: 60rem;
   background-color: white;
 
 }
@@ -481,7 +497,7 @@ th {
   height: 1000px;
   width: 100%;
   margin: auto;
-}
+}*/
 
 
 
