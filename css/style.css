@@ -1,3 +1,15 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -10,7 +22,6 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
-   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -446,13 +457,14 @@ th {
 
 
 /* Class Selectors */
-* {
+/** {
   border: 1px solid red;
-}
+}*/
 
 
 body {
   box-sizing: border-box;
+  margin: 0;
 
 }
 
@@ -474,34 +486,32 @@ body {
 }
 
 
-.links > li {
-  display: inline-block;
+.top-navigation .links {
+  float: right;
   font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
-  color: #838994; 
-  letter-spacing: 0.03em;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  color: #838994;
+  margin-top: 25px;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 25px;
   -webkit-transition: color 300ms ease;
-
 }
 
 
-.links {
-  float: right;
-}
-
-
-.links > li:hover {
-  color: #4c5058;
+.top-navigation .links li:hover {
+  color: #333333;
   cursor: pointer;
 }
 
 
-.top-navigation .links > .active {
+.top-navigation .links .active {
   color: #4c5058;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
@@ -511,6 +521,27 @@ body {
 }
 
 
+.introduction {
+  background: #fe5d26 url('../img/first-background.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+  width: 100%;
+  margin: auto;
+}
+
+ h1,
+ h3 {
+  color:#FFF;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: 300;
+}
 
 /*.navigation {
   position: fixed;
