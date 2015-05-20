@@ -465,6 +465,8 @@ th {
 body {
   box-sizing: border-box;
   margin: 0;
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
 
 }
 
@@ -488,12 +490,15 @@ body {
 
 .content {
   padding: 0px 15px;
+  box-sizing: border-box;
+  width: 970px;
+  height: 2.375rem;
+  margin: 0 auto;
 }
 
 
 .top-navigation .links {
   float: right;
-  font-family: 'Roboto', sans-serif; 
   font-size: 1.04rem; 
   color: #838994;
   margin-top: 25px;
@@ -529,20 +534,22 @@ body {
 .introduction {
   background: #fe5d26 url('../img/first-background.jpg') no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
+  background-repeat: no-repeat;
   height: 45.938rem;
   width: 100%;
   margin: auto;
+  overflow: auto;
 }
 
 
  h1,
  h3 {
   color:#FFF;
-  font-family: Roboto, sans-serif;
   text-align: center;
   font-weight: 300;
   font-size: 3.125rem;
+  line-height: 1;
 }
 
 
@@ -554,30 +561,31 @@ h3 {
 
 
 .introduction .content {
-  padding-top: 14.725rem;
+  margin-top: 17.375rem;
 }
 
 
-button {
+.big-button {
   display: block;
   color: #fff;
+  text-shadow: none;
   background-color: #f15a29;
   border-color: #f15a29;
-  text-shadow: none;
   border-style: none;
   border-radius: 4px;
   padding: 1rem 1.5rem;
-  font-size: 1.125rem;
+  font-size: 1.15rem;
   width: 9.688rem;
-  margin-left: 10rem;
   text-align: center;
-  margin: auto;
+  margin: 10px auto 0 auto;
   -webkit-transition-duration: 200ms;
+
 }
 
 
 button:hover {
   background-color: #ce3300;
+  cursor: pointer;
 }
 
 
