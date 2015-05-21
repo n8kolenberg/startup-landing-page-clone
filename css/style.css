@@ -482,7 +482,7 @@ body {
 
 
 .top-navigation > .content {
-  width: 970px;
+  width: 50rem;
   height: 2.375rem;
   margin: 0 auto;
 }
@@ -498,7 +498,8 @@ body {
 
 
 .top-navigation .links {
-  float: right;
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end;
   font-size: 1.04rem; 
   color: #838994;
   margin-top: 25px;
@@ -509,7 +510,8 @@ body {
 
 .top-navigation .links li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 1.8rem;
+  margin-top: 0.1rem;
   -webkit-transition: color 300ms ease;
 }
 
@@ -527,6 +529,8 @@ body {
 
 
 .logo {
+  position: absolute;
+  top: 0;
   height: 70px;
   margin-left: 2.2rem;
  
