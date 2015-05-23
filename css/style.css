@@ -198,8 +198,8 @@ button:hover {
   display: flex;
   -webkit-flex-direction: row;
   flex-direction: row;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
 
 }
 
@@ -283,16 +283,6 @@ middle of their containing element*/
 }
 
 
-.copy {
-  display: block;
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 300;
-  color: #838994;
-  margin-bottom: 9rem;
-}
-
-
 .fa-facebook {
   color: #4c66a4;
 }
@@ -305,6 +295,19 @@ middle of their containing element*/
 
 .fa-instagram {
   color: #3f729b;
+}
+
+.copy {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
+
+
+.social .content {
+  height: 18rem;
 }
 
 
