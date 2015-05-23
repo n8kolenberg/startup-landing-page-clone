@@ -50,7 +50,7 @@ body {
 
 
 .top-navigation > .content {
-  width: 50rem;
+  width: 55rem;
   height: 2.375rem;
   margin: 0 auto;
 }
@@ -67,7 +67,9 @@ body {
 
 .top-navigation .links {
   display: -webkit-flex;
+  display: flex;
   -webkit-justify-content: flex-end;
+  justify-content: flex-end;
   font-size: 1.04rem; 
   color: #838994;
   margin-top: 25px;
@@ -193,7 +195,10 @@ button:hover {
   max-width: 50rem;
   text-align: center;
   display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-justify-content: center;
   justify-content: center;
 
 }
@@ -237,8 +242,12 @@ button:hover {
 
 
 .social .icons {
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
   list-style: none;
   text-align: center;
   width: 100%;
@@ -251,12 +260,26 @@ button:hover {
   /*display: inline-block;*/
   width: 2.5rem;
   height: 2.5rem;
-  padding: 0.625rem 0.5rem;
   text-align: center;
   border: 1px solid #eaebec;
   border-radius: 100%;
   margin: -0.35rem 1.73rem 1.5rem -0.8rem;
+  overflow: hidden;
 
+}
+
+
+.social .icons > li > a {
+  text-decoration: none;
+  padding: 1rem 0.7rem;
+
+}
+
+
+/* To move the font-awesome icons more to the 
+middle of their containing element*/
+.social .icons > li > a > span {
+  margin-top: 0.625rem;
 }
 
 
@@ -270,17 +293,17 @@ button:hover {
 }
 
 
-.facebook {
+.fa-facebook {
   color: #4c66a4;
 }
 
 
-.twitter {
+.fa-twitter {
   color: #55acee;
 }
 
 
-.instagram {
+.fa-instagram {
   color: #3f729b;
 }
 
